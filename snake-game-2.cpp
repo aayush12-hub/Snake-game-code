@@ -30,7 +30,7 @@ int main()
 	case 'S':
 	case 's':		
 		setup();
-		while(!gameOver)
+		while(!gameOver) 
 		{
 			Draw();
 			Input();
