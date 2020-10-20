@@ -28,6 +28,7 @@ int main()
 	switch (ch)
 	{
 	case 'S':
+	case 's':		
 		setup();
 		while(!gameOver)
 		{
@@ -38,6 +39,7 @@ int main()
 		}
 		break;
 	case 'H':
+	case 'h':
 		setup();
 		while(!gameOver)
 		{
